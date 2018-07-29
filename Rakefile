@@ -1,8 +1,8 @@
 
-    desc 'create environment for migrate to work with'
-    task :environment do
-        require_relative './config/environment'
-    end
+desc 'create environment for migrate to work with'
+task :environment do
+    require_relative './config/environment'
+end
 
 namespace :greeting do
     desc 'outputs hello to the terminal'
