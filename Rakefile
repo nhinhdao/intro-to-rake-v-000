@@ -1,5 +1,5 @@
 
-desc 'create environment for migrate to work with'
+desc 'create environment for dependencies to work with'
 task :environment do
     require_relative './config/environment'
 end
